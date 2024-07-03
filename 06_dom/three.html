@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM | Chai aur Code</title>
+</head>
+<body id="father" style="background-color: #212121; color: white;">
+    
+</body>
+<script>
+    const div = document.createElement('div')
+    console.log(div)
+    div.className = "main"
+    div.id = "d1"
+    div.setAttribute("title","genrated title")
+    div.style.background = "green"
+    div.style.padding = "12px"
+    // div.innerHTML = "Shnairaj"
+    const txt1 = document.createTextNode("ShaniRaj")
+    div.appendChild(txt1)
+    
+    const father = document.getElementById('father')
+    father.appendChild(div)
+    // document.body.appendChild(div)
+    
+</script>
+</html>
