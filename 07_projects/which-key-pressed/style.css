@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-bottom: solid 1px #aaa;
+    background-color: #212121;
+  }
+
+  span {
+    display: block;
+  }
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+  #box{
+    border-radius: 50px;
+    padding: 3rem;
+    background-color: rgba(100  , 100, 100, 0.3);
+  }
