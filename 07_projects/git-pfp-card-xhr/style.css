@@ -1,0 +1,60 @@
+body{
+    background-color: #414141;
+}
+
+.card{
+    margin: auto ;
+
+    display: block;
+    width: 30%;
+    
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    text-align: center;
+}
+
+#main{
+    padding: 0rem 2rem 0 2rem;
+    margin-top: 3rem;
+    border-radius: 20px 20px 0 0; 
+}
+#pfimg{
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    display: block;
+    width: 20rem;
+}
+
+#info{
+    padding: 1.5rem;
+    color: aliceblue;
+    padding-bottom: 0.5rem;
+}
+
+#name{
+    display: block;
+    font-size: xx-large;
+}
+
+#login{
+    display: block;
+    margin-top: 0.3rem;
+}
+
+#follos{
+    display: block;
+    margin-top: 0.5rem;
+}
+#link{
+    background-color: rgba(100, 100, 100, 0.3);
+    margin-top: 0;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 0 0 20px 20px;
+}
+a{
+    color: black;
+}
+.gitlogo{
+    height: 4rem;
+}
